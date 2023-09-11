@@ -9,7 +9,7 @@ function calculateBMI() {
 
   // You are going to write the code here before the curly braces 👇🏻
 height = height * 0.01;
-let BMI = ( weight / height^2 ); 
+let BMI = ( weight / height**2 ); 
 
 if (BMI < 18.5) alert(BMI + `
 Underweight!`)
